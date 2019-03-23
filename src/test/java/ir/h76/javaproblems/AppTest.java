@@ -1,20 +1,12 @@
 package ir.h76.javaproblems;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+import static org.junit.Assert.assertTrue;
+
+public class AppTest {
+  @Test
+  public void shouldAnswerWithTrue() {
+    assertTrue(true);
+  }
 }
