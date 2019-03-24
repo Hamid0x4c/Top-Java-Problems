@@ -1,10 +1,7 @@
 package ir.h76.javaproblems;
 
-/**
- * Hello world!
- */
 public class App {
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    System.out.println("Each problem has its own application main function, try exploring other packages :)");
   }
 }
