@@ -1,7 +1,9 @@
 package ir.h76.javaproblems;
 
+import ir.h76.javaproblems.algorithms.HexToDecimal;
+
 public class App {
   public static void main(String[] args) {
-    System.out.println("Each problem has its own application main function, try exploring other packages :)");
+    int decimal = HexToDecimal.HexToDecimal("10f");
   }
 }
