@@ -1,6 +1,8 @@
 package ir.h76.javaproblems.algorithms;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 public class Hexadecimal {
   private HashMap<String, Integer> hexValues;
@@ -17,5 +19,14 @@ public class Hexadecimal {
 
   public int getValueOf(String hexNotation) {
     return this.hexValues.get(hexNotation.toLowerCase());
+  }
+
+  public String getKeyOf(int number) {
+    for (Map.Entry<String, Integer> entry : hexValues.entrySet()) {
+      if (Objects.equals(number, entry.getValue())) {
+        return entry.getKey();
+      }
+    }
+    return null;
   }
 }

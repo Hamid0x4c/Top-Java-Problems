@@ -1,9 +1,9 @@
 package ir.h76.javaproblems;
 
-import ir.h76.javaproblems.algorithms.HexToDecimal;
+import ir.h76.javaproblems.algorithms.DecimalToHex;
 
 public class App {
   public static void main(String[] args) {
-    int decimal = HexToDecimal.HexToDecimal("10f");
+    System.out.println(DecimalToHex.convert(462));
   }
 }
